@@ -11,6 +11,8 @@ This project involves creating a web application using Streamlit and integrating
 ## Project Implementation
 This repository contains a Streamlit web application that uses a [Hugging Face](https://huggingface.co/) model to generate text based on user input. The application allows users to enter a text prompt and generate text based on that prompt using openAI's pre-trained language model, [gpt2](https://huggingface.co/openai-community/gpt2).
 
+Project Website - [https://ds655-gpt2.streamlit.app/](https://ds655-gpt2.streamlit.app/)
+
 ## Steps to build a Streamlit app with a Hugging Face model
 
 1. **Install necessary libraries**: This project requires Streamlit and Transformers. You can install them using pip:
