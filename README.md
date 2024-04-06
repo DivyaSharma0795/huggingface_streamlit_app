@@ -13,7 +13,44 @@ This repository contains a Streamlit web application that uses a [Hugging Face](
 
 Project Website - [https://ds655-gpt2.streamlit.app/](https://ds655-gpt2.streamlit.app/)
 
+## Cloning the GitLab Repository
+
+To clone this GitLab repository, follow these steps:
+
+1. Open a terminal.
+2. Change the current working directory to the location where you want the cloned directory.
+3. Type `git clone`, and then paste the URL of this repository. Press Enter to create your local clone.
+
+```bash
+git clone https://gitlab.com/dukeaiml/IDS721/ds655_ids721_miniproject09.git
+```
+
+
 ## Steps to build a Streamlit app with a Hugging Face model
+
+### Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+-   You have installed the latest version of Python3. If not, you can download it from [here](https://www.python.org/downloads/).
+-   You have a Windows/Linux/Mac machine with a stable internet connection.
+-   You have read the [Hugging Face model documentation](https://huggingface.co/models).
+
+
+### Installation
+
+To install the necessary libraries for the project, follow these steps:
+
+-   Clone the repository to your local machine as described in the "Cloning the GitLab Repository" section.
+-   Navigate to the project directory in your terminal.
+-   Install the necessary Python libraries using pip:
+
+```python
+pip install -r requirements.txt
+```
+This will install all the necessary dependencies, including Streamlit and Transformers.
+
+
 
 1. **Install necessary libraries**: This project requires Streamlit and Transformers. You can install them using pip:
 
@@ -62,3 +99,19 @@ streamlit run app.py
 
 8. Deploy the app: You can deploy the app using Streamlit's sharing service or other platforms like Heroku or AWS.
 
+## Screenshots
+
+Here are some screenshots of the working website:
+
+Streamlit app running on Localhost:
+![Localhost_screenshot](./Screenshots/Text_Generation_App_localhost.png)
+
+Web app running on streamlit:
+![Streamlit_screenshot](./Screenshots/Running_Webapp.png)
+
+
+Web app hosted on streamlit:
+![Streamlit_screenshot](./Screenshots/StreamLit.png)
+
+## License
+This project is licensed under the terms of the MIT license. For more details, see the LICENSE file in the project repository.
